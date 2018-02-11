@@ -1,4 +1,6 @@
 {
+
+  
   "country": "US",
   "edition": "Developer",
   "orgPreferences": {
@@ -7,6 +9,6 @@
     ],
     "disabled": []
   },
-  "orgName": "Your Company",
-  "adminEmail": "yourname@example.com"
+  "orgName": "siemens",
+  "adminEmail": "saurabhkumar@siemens.com"
 }
