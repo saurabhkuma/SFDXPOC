@@ -18,6 +18,13 @@ public with sharing class DemoController {
             // this will set the Id, so now you can use the standard controller and just reference fields on the page
             ApexPages.currentPage().getParameters().put('id', theContact.Id);
         }
+		
+		else{
+			
+			Contact c = new Contact(firstName ='Saurabh' ,LastName='Kumar',email ='saurabhkumar@siemens.com');
+			insert c;
+			ApexPages.currentPage().getParameters().put('id', c.Id);
+		}
     }
     //this is added by saurabh on 2/9/2018  ...
     ////this is added by saurabh on 2/12/2018 testing
