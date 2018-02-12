@@ -22,8 +22,8 @@ public with sharing class DemoController {
 		else{
 			
 			Contact c = new Contact(firstName ='Saurabh' ,LastName='Kumar',email ='saurabhkumar@siemens.com');
-			insert c;
-			ApexPages.currentPage().getParameters().put('id', c.Id);
+			//insert c;
+			//ApexPages.currentPage().getParameters().put('id', c.Id);
 		}
     }
     //this is added by saurabh on 2/9/2018  ...
