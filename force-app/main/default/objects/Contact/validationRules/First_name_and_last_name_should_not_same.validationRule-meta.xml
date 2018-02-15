@@ -3,5 +3,5 @@
     <fullName>First_name_and_last_name_should_not_same</fullName>
     <active>true</active>
     <errorConditionFormula>FirstName == LastName</errorConditionFormula>
-    <errorMessage>First name and last name should not be same</errorMessage>
+    <errorMessage>First name and last name should not be same as usual</errorMessage>
 </ValidationRule>
